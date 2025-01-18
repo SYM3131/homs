@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>استمارة انضمام للعمل الخدمي</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 90%;
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            text-align: center;
+            color: #555;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .note {
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>استمارة انضمام للعمل الخدمي</h1>
+        <p>نحن تجمع حمص وريفها للعمل الخدمي ضمن أحيائنا المتضررة، نسعى إلى تقديم المساعدة في مجالات الإغاثة وإعادة ترميم البنية الخدمية والعمرانية. ندعو الجامعيين والثوريين ممن لم يعملوا سابقًا مع النظام السابق للانضمام إلينا. يرجى تعبئة الاستمارة أدناه.</p>
+        <form action="https://wa.me/message/2NWU6YLGKYPUB1" method="get" target="_blank">
+            <label for="name">الاسم الكامل</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="role">الصفة الرسمية</label>
+            <input type="text" id="role" name="role">
+
+            <label for="degree">الشهادة الدراسية</label>
+            <input type="text" id="degree" name="degree" required>
+
+            <label for="experience">الخبرات العلمية والمهنية</label>
+            <textarea id="experience" name="experience" rows="4" required></textarea>
+
+            <label for="contribution">ما هي المقومات التي تستطيع من خلالها المساهمة الفعالة من خلال عملك؟</label>
+            <textarea id="contribution" name="contribution" rows="4" required></textarea>
+
+            <label for="previousWork">هل كنت موظفًا سابقًا مع النظام السابق؟</label>
+            <select id="previousWork" name="previousWork" required>
+                <option value="no">لا</option>
+                <option value="yes">نعم</option>
+            </select>
+
+            <button type="submit">موافق</button>
+        </form>
+        <div class="note">بموافقتك على الشروط، سيتم تحويلك للتواصل عبر الواتساب.</div>
+    </div>
+</body>
+</html>
